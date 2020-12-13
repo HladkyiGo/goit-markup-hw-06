@@ -471,7 +471,7 @@ a {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-
+  border: 0;
   border-radius: 4px;
   padding: 10px 32px;
 }
