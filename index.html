@@ -424,7 +424,16 @@
         <p class="footer-text">Подпишитесь на рассылку</p>
 
         <input type="email" name="email" placeholder="E-mail" class="footer-input-field">
-        <button type="submit" class="button futter-button">Подписаться<span class="icon-futter-field"></span></button>
+        <div class="contain-footer-field">
+          <button type=" submit" class="button futter-button">Подписаться
+            <a class="" href="">
+              <svg class="footer-svg">
+                <use href="./svg/sprite.svg#send"></use>
+              </svg>
+            </a>
+          </button>
+
+        </div>
       </div>
     </div>
   </footer>
@@ -481,6 +490,7 @@
             Соглашаюсь с рассылкой и принимаю <a href="" class="form-link"> Условия
               договора</a>
           </label>
+
         </div>
 
         <button type="submit" class="button">Отправить</button>

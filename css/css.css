@@ -571,6 +571,7 @@ a {
 .footer-text {
   color: var(--white-text);
   text-transform: uppercase;
+
 }
 
 .footer-social-link {
@@ -607,6 +608,7 @@ a {
 }
 
 .futter-button {
+  display: flex;
 
   color: var(--white-text);
   background-color: var(--accent-color);
@@ -621,21 +623,25 @@ a {
   padding: 10px 32px
 }
 
+.contain-footer-field {
+  display: inline-block;
+}
+
 .futter-field {
   margin-left: 93px;
 }
 
-.futter-button::after {
-  content: '';
-  display: inline-block;
+
+
+.footer-svg {
+  position: absolute;
   width: 24px;
   height: 24px;
-  background-image: url('../svg/send.svg');
   margin-left: 10px;
-
-
-
 }
+
+
+
 
 .footer-input-field {
   margin-top: 20px;
