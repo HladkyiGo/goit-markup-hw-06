@@ -652,6 +652,8 @@ a {
   background-color: #2F303A;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  color: var(--prymary-text-color);
+  padding-left: 10px;
 }
 
 .
@@ -890,7 +892,8 @@ a {
   cursor: pointer;
 }
 
-.modal-icon:hover {
+.modal-icon:hover,
+.modal-icon:focus {
   fill: var(--accent-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -954,7 +957,8 @@ textarea {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field input:focus {
+.form-field input:focus,
+.form-field input:hover {
 
   border: 1px solid #2196F3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -981,6 +985,13 @@ textarea {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+}
+
+.form-field textarea:hover,
+.form-field textarea:focus {
+  border: 1px solid #2196F3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field label {
