@@ -475,6 +475,7 @@ a {
   border-radius: 4px;
   padding: 10px 32px;
   cursor: pointer;
+
 }
 
 /* Стилізація Преимуществ(advantages)*/
@@ -656,7 +657,7 @@ a {
   padding-left: 10px;
 }
 
-.
+
 /* portfolio*/
 
 .filter {
@@ -939,6 +940,7 @@ textarea {
 }
 
 
+
 .form-field input {
   box-sizing: border-box;
   margin: 0px;
@@ -951,6 +953,8 @@ textarea {
   border-radius: 4px;
   outline: none;
 }
+
+
 
 .form-field:focus-within>.form-icon {
   fill: var(--accent-color);
@@ -965,6 +969,8 @@ textarea {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
+
 
 .form-field textarea {
   box-sizing: border-box;
@@ -1057,6 +1063,11 @@ textarea {
   margin-left: 12px;
 
 }
+
+.form-field:hover {
+  fill: var(--accent-color);
+}
+
 
 .form-link {
   display: inline;
