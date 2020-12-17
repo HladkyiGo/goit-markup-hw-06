@@ -14,6 +14,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -332,9 +336,7 @@ img {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-}
+
 
 .visually-hidden {
   position: absolute;
@@ -899,18 +901,18 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-form {
+.form {
   display: block;
   padding-top: 0;
   padding-bottom: 0;
 
 }
 
-form .button {
+.form .button {
   cursor: pointer;
 }
 
-textarea {
+.coment {
   resize: none;
 }
 
@@ -941,7 +943,7 @@ textarea {
 
 
 
-.form-field input {
+.form-field__input {
   box-sizing: border-box;
   margin: 0px;
   padding: 10px;
@@ -952,6 +954,10 @@ textarea {
   border-image: initial;
   border-radius: 4px;
   outline: none;
+}
+
+.form-field__input {
+  padding-left: 35px;
 }
 
 
@@ -961,8 +967,8 @@ textarea {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field input:focus,
-.form-field input:hover {
+.form-field__input:focus,
+.form-field__input:hover {
 
   border: 1px solid #2196F3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -972,7 +978,7 @@ textarea {
 
 
 
-.form-field textarea {
+.form-field__coment {
   box-sizing: border-box;
   margin: 0px;
   padding: 10px;
@@ -986,21 +992,21 @@ textarea {
 
 }
 
-.form-field:focus-within>textarea {
+.form-field__coment:focus-within{
   border: 1px solid #2196F3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-.form-field textarea:hover,
-.form-field textarea:focus {
+.form-field__coment:hover,
+.form-field__coment:focus {
   border: 1px solid #2196F3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-field label {
+.form-field__text {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -1048,10 +1054,7 @@ textarea {
 
 
 
-.form-field input {
 
-  padding-left: 35px;
-}
 
 
 .form-icon {
